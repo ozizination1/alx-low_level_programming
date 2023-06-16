@@ -1,6 +1,6 @@
-#include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+#include<stdio.h>
 /**
  * main - an entry point for the  program
  * Return: always 0 (success)
@@ -17,6 +17,6 @@ int main(void)
 	else if (n % 10 == 0)
 		printf("and is 0\n");
 	else if (n % 10 < 6 && n % 10 != 0)
-		printf("and is less tha 6 and not 0\n");
+		printf("and is less than 6 and not 0\n");
 	return (0);
 }
