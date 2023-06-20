@@ -1,26 +1,18 @@
-#include "main.h"
+#include"main.h"
+
 /**
- *print_alphabet_x10 - a funtion that prints alphabet 10 times
+ * print_alphabet_x10 - function that will print the alphabet 10 times
+ *
  */
-
-
 
 void print_alphabet_x10(void)
 {
-	char za;
-	int i;
+	int line, ch;
 
-	i = 1;
-
-	while (i <= 10)
+	for (line = 0; line <= 9; ++line)
 	{
-		za = 'a';
-		while (za <= z)
-		{
-			_putchar(za);
-			za++
-		}
-		_putchar('\n')
-		i++
+		for (ch = 'a'; ch <= 'z'; ++ch)
+			_putchar(ch);
+		_putchar('\n');
 	}
 }
